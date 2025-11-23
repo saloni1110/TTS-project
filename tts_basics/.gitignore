@@ -1,0 +1,18 @@
+# macOS system files
+.DS_Store
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Checkpoints and logs
+checkpoints/
+logs/
+
+# Temporary files
+*.tmp
+*.log
