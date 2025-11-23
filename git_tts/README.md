@@ -1,7 +1,13 @@
 # README.md 
 # Text-to-Speech (TTS) Project
+This project contains a simple, educational Text-to-Speech (TTS) model built from scratch using PyTorch. This project implements a basic Text-to-Speech (TTS) system consisting of data preprocessing, training an acoustic model; converting text input to mel spectrograms and then reconstructing audio, and inference with waveform synthesis. It is designed for learning and experimentation, making it an excellent reference for beginners entering the TTS field.
 
-This project implements a basic Text-to-Speech (TTS) system consisting of data preprocessing, training an acoustic model, and inference with waveform synthesis.
+Features: a. Minimal character-to-spectrogram neural architecture b. Data processing scripts for text and audio preparation c. Training pipeline with example dataset and evaluation outputs d. Step-by-step code documentation for easy understanding e. Ready-to-run demo and instructions
+
+Goals: a. Help users understand the core concepts behind neural TTS b. Provide a hands-on, reproducible example for portfolio or academic use c. Serve as a starting point for more advanced neural voice synthesis projects
+
+Contents: a. Python source code for model, training, and inference b. Sample dataset and usage instructions c. Detailed README with setup, usage, and results d. Guidance on further enhancements and deployment
+
 
 ---
 
@@ -15,8 +21,6 @@ This project implements a basic Text-to-Speech (TTS) system consisting of data p
 - `checkpoints/`: Directory to save trained model weights.
 
 ---
-
-## Getting Started
 
 ### Prerequisites
 
